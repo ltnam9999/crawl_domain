@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+ENV/
+
+# Caches & Temporary files
+.tranco_cache/
+__pycache__/
+*.py[cod]
+
+# Database files
+dataset_staging
+dataset_staging.db
+*.db
+*.sqlite3
+
+# Log files
+*.log
+collect_domains.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
